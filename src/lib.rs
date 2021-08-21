@@ -560,8 +560,7 @@ impl TypeCode {
                     if self.is_branch && self.stack < self.branches.len() as u64 {
                         self.info_branches.push(self.branches[self.stack as usize].clone());
                     } else if self.is_lang && self.stack < self.languages.len() as u64 {
-                        println!("{} | {}", self.stack, self.languages[0 as usize].clone());
-                        self.info_languages.push(self.languages[self.stack as usize].clone());
+                       self.info_languages.push(self.languages[self.stack as usize].clone());
                     } else if self.is_os && self.stack < self.osystems.len() as u64 {
                         self.info_osystems.push(self.osystems[self.stack as usize].clone());
                     }
