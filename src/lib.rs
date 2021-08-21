@@ -525,7 +525,7 @@ impl Default for TypeCode {
 }
 
 impl TypeCode {
-    fn init(&mut self, file_data: String) {
+    pub fn init(&mut self, file_data: String) {
         use Tokens::{*};
 
         for ch in file_data.chars() {
