@@ -1,0 +1,17 @@
+[package]
+name = "typecoders"
+version = "0.1.0"
+authors = ["ferhatgec"]
+edition = "2018"
+description = "interpret unique code that introduce yourself."
+keywords = ["rust", "interpreter", "code", "introduce", "yourself"]
+readme = "README.md"
+repository = "https://github.com/ferhatgec/typecoders"
+documentation = "https://docs.rs/typecoders"
+license = "MIT"
+
+include = [
+    ".gitignore",
+    "Cargo.toml",
+    "src/*.rs"
+]
